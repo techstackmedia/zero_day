@@ -73,6 +73,42 @@ For macOS users, Brew provides a convenient way to install Vagrant and VirtualBo
 
 Now that we have Vagrant and VirtualBox installed, let's explore their functionalities and see how they simplify development workflows.
 
+### Box Names
+
+When using the `vagrant init` command, the box name represents the base image or template from which Vagrant will create your virtual machine. The box name determines the operating system, pre-installed software, and configurations available for your development environment. Here are a few commonly used box names and their uses:
+
+1. `hashicorp/bionic64`:
+   - Ubuntu 18.04 LTS (Bionic Beaver) 64-bit base box provided by HashiCorp.
+   - Suitable for general-purpose development and testing on Ubuntu.
+
+2. `ubuntu/focal64`:
+   - Ubuntu 20.04 LTS (Focal Fossa) 64-bit base box provided by Ubuntu.
+   - Similar to `hashicorp/bionic64`, but with the newer Ubuntu 20.04 LTS release.
+
+3. `centos/8`:
+   - CentOS 8 64-bit base box provided by CentOS.
+   - Ideal for working with CentOS-specific software and configurations.
+
+4. `debian/buster64`:
+   - Debian 10 (Buster) 64-bit base box provided by the Debian project.
+   - Useful for Debian-based development and testing.
+
+5. `fedora/33-cloud-base`:
+   - Fedora 33 Cloud Base 64-bit base box provided by the Fedora project.
+   - Suitable for Fedora-specific development and testing.
+
+6. `windows-server-2019`:
+   - Windows Server 2019 base box provided by Microsoft.
+   - Enables Windows-based development and testing environments.
+
+7. Custom Boxes:
+   - Apart from the official boxes, you can also use custom boxes created by the community or yourself.
+   - Custom boxes allow you to tailor the virtual machine to your specific requirements, including pre-installed software, configurations, and provisioning scripts.
+
+It's important to choose a box that aligns with your development needs and matches the desired operating system and software stack. Official boxes are typically reliable and regularly updated, but custom boxes can provide more flexibility if you have specific requirements.
+
+When selecting a box, consider factors such as the operating system version, software compatibility, available support, and the community around the box. Reading the documentation and reviews for each box can help you make an informed decision based on your specific use case.
+
 1. Creating and Starting a Vagrant Virtual Machine:
    - Open PowerShell or Command Prompt.
    - Navigate to your project directory.

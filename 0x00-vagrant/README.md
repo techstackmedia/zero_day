@@ -5,8 +5,8 @@ To use cloud-based providers like AWS and Azure with Vagrant and VirtualBox, you
 Using AWS with Vagrant and VirtualBox:
 
 1. Install the necessary dependencies:
-   - Install VirtualBox: Download and install VirtualBox from the official website.
-   - Install Vagrant: Download and install Vagrant from the official website.
+   - Install VirtualBox: Download and install VirtualBox from the official website (choco - Windows or brew - macOS).
+   - Install Vagrant: Download and install Vagrant from the official website (choco - Windows or brew - macOS).
 
 2. Install the AWS plugin for Vagrant:
    - Open a command prompt or terminal.
@@ -45,8 +45,8 @@ Using AWS with Vagrant and VirtualBox:
 Using Azure with Vagrant and VirtualBox:
 
 1. Install the necessary dependencies:
-   - Install VirtualBox: Download and install VirtualBox from the official website.
-   - Install Vagrant: Download and install Vagrant from the official website.
+   - Install VirtualBox: Download and install VirtualBox from the official website (choco - Windows or brew - macOS).
+   - Install Vagrant: Download and install Vagrant from the official website (choco - Windows or brew - macOS).
 
 2. Install the Azure plugin for Vagrant:
    - Open a command prompt or terminal.
